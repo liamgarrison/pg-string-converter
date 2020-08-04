@@ -4,6 +4,12 @@ Convert a postgres string to database credentials and back again.
 
 Sometimes we have postgres database connection strings but we want to use tools like `pgdump` `psql` which require the string be split into parts.
 
+## Installation
+
+Add to package.json dependencies manually:
+
+`"pg-string-converter": "github:liamgarrison/pg-string-converter.git"`
+
 ## Usage
 
 Convert string to parts:

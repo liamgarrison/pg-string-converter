@@ -1,0 +1,13 @@
+{
+  "name": "pg-string-converter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Liam Garrison <liam@medicspot.co.uk>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^26.2.2"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}

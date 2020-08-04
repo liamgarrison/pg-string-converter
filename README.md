@@ -1,8 +1,8 @@
 # pg string converter
 
-Convert a postgres string to database credentials and back again.
+Convert a postgres database connection string to a set of database credentials and back again.
 
-Sometimes we have postgres database connection strings but we want to use tools like `pgdump` `psql` which require the string be split into parts.
+Sometimes we have postgres database connection strings but we want to use tools like `pgdump` `psql` which require the string be split into parts like user, port etc.
 
 ## Installation
 
